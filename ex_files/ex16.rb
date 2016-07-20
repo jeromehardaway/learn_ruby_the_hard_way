@@ -28,6 +28,10 @@ target.write("\n")
 target.write(line3)
 target.write("\n")
 
+puts "Here is your content: "
+target = filename.read
+print target
+
 puts "And finally, we close it."
 target.close
 
