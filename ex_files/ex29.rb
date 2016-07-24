@@ -34,3 +34,7 @@ end
 if people == dogs
     puts "People are dogs."
 end
+
+# the code will stil run if it is not indented
+# nested code is easier to read if it is indented
+# changing the initial values will result in some of the conditional statements not executing 
