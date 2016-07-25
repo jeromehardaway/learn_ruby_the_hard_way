@@ -10,6 +10,9 @@ if door == "1"
    puts "1. Take the cake."
    puts "2. Scream at the bear."
    
+   # add more options
+   puts "3. Back up slowly."
+   
    print "> "
    bear = $stdin.gets.chomp
    
@@ -17,6 +20,9 @@ if door == "1"
         puts "The bear eats your face off. Good job!"
     elsif bear == "2"
         puts "The bear eats your legs off. Good job!"
+    # add additional elsif statement
+    elsif bear == "3"
+        puts "Rush to car, grab shotgun and blow off bears legs. Amazing!"
     else
         puts "Well doing %s is probably better. Bears runs away." % bear
    end
@@ -32,6 +38,8 @@ elsif door == "2"
     
     if insanity == "1" || insanity == "2"
         puts "Your body survives powered by a mind of jello. Good job!"
+    elsif insanity == "3"
+        puts "You're eyes remain locked, in an everlasting gaze. Good job!"
     else
         puts "The insanity rots your eyes into a pool of muck. Good job!"
     end
