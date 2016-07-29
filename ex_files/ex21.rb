@@ -1,21 +1,21 @@
 def add(a, b)
-    puts "ADDING #{a} + #{b}"
-    return a + b
+  puts "ADDING #{a} + #{b}"
+  return a + b
 end
 
 def subtract(a, b)
-    puts "SUBTRACTING #{a} - #{b}"
-    return a - b
+  puts "SUBTRACTING #{a} - #{b}"
+  return a - b
 end
 
 def multiply(a, b)
-    puts "MULTIPLYING #{a} * #{b}"
-    return a * b
+  puts "MULTIPLYING #{a} * #{b}"
+  return a * b
 end
 
 def divide(a, b)
-    puts "DIVIDING #{a} / #{b}"
-    return a / b 
+  puts "DIVIDING #{a} / #{b}"
+  return a / b 
 end
 
 
@@ -42,4 +42,3 @@ puts "Here is the modified what variable"
 what = multiply(age, add(height, subtract(weight, add(iq,2))))
 
 puts "here it is: #{what}"
-
